@@ -29,6 +29,9 @@ class App extends React.Component {
 	onVideoSelected = (video) => {
 		this.setState({ selectedVideo: video });
 	};
+	componentDidMount = () => {
+		this.onFormSubmit("cute cat");
+	};
 	render() {
 		return (
 			<div className="ui container">
