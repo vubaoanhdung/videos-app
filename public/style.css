@@ -1,0 +1,24 @@
+body {
+	background-image: linear-gradient(
+		to right,
+		#ff8177 0%,
+		#ff867a 0%,
+		#ff8c7f 21%,
+		#f99185 52%,
+		#cf556c 78%,
+		#b12a5b 100%
+	) !important;
+}
+
+.search-bar.ui.segment {
+	background-color: #f5d0cc !important;
+	margin-top: 15px !important;
+	margin-bottom: 20px !important;
+}
+.search-bar input {
+	background-color: #f8e1df !important;
+}
+
+.title-description {
+	background-color: antiquewhite !important;
+}
